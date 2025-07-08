@@ -1,0 +1,24 @@
+// variable
+:root{
+    --color-primary:#708238;
+    --color-sub1:#D2B48C;
+    --color-sub2:#F8EED7;
+    --color-white:#FFFFFF;
+    --color-gray:#666666;
+    --color-black:#333333; 
+}
+
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+a{ text-decoration: none; display: block; color: inherit; }
+li{ list-style: none; }
+button{ cursor: pointer; }
+html{ font-size: 16px; }
+body{
+    @include font-ko-body;
+    background-color: var(--color-white);
+}
+#App{
+    width: 90%;
+    max-width: 1440px;
+    margin: 1rem auto;
+}
