@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "product_id": "P000141",
+      "product_name": "책상",
+      "main_image_url": "/images/category/category-01.png"
+    },
+    {
+      "product_id": "P000142",
+      "product_name": "식탁",
+      "main_image_url": "/images/category/category-02.png"
+    },
+    {
+      "product_id": "P000143",
+      "product_name": "테이블",
+      "main_image_url": "/images/category/category-03.png"
+    },
+    {
+      "product_id": "P000144",
+      "product_name": "의자",
+      "main_image_url": "/images/category/category-04.png"
+    },
+    {
+      "product_id": "P000145",
+      "product_name": "서랍",
+      "main_image_url": "/images/category/category-05.png"
+    },
+    {
+      "product_id": "P000146",
+      "product_name": "수납장",
+      "main_image_url": "./images/category/category-06.png"
+    },
+    {
+      "product_id": "P000147",
+      "product_name": "파티션",
+      "main_image_url": "/images/category/category-07.png"
+    },
+    {
+      "product_id": "P000148",
+      "product_name": "소파",
+      "main_image_url": "/images/category/category-08.png"
+    }
+  ]
+}

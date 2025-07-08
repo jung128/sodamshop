@@ -1,0 +1,70 @@
+@mixin font-En-title{
+    font-family: "poppins-light", sans-serif;
+    font-size: 2rem;
+    font-weight: 500; 
+}
+@mixin font-En-sub{
+    font-family: "poppins-light", sans-serif;
+    font-size: 20px;
+    font-weight: 500 ; 
+}
+@mixin font-En-small{
+    font-family: "poppins-light", sans-serif;
+    font-size: 13px;
+    font-weight: 400 ; 
+}
+@mixin font-En-btn1{
+    font-family: "poppins-light", sans-serif;
+    font-size: 20px;
+    font-weight: 500 ; 
+}
+@mixin font-En-btn2{
+    font-family: "poppins-light", sans-serif;
+    font-size: 1rem;
+    font-weight: 500 ; 
+}
+@mixin font-ko-sub{
+    font-family: "inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400 ; 
+}
+@mixin font-ko-body{
+    font-family: "inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400 ; 
+}
+@mixin font-ko-small{
+    font-family: "inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400 ; 
+}
+@mixin font-ko-btn{
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400 ; 
+}
+
+@mixin flex-layout($direction:row, $justify:center, $align:center){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align; 
+}
+
+//반응형 mixin 
+@mixin tablet{
+    @media screen and (min-width:768px){
+        @content;
+    }
+}
+@mixin desktop{
+    @media screen and (min-width:1440px){
+        @content;
+    }
+}
+
+//버튼 컴포넌트
+@mixin btn-style{
+    background-color: var(--color-sub1);
+    color: var(--color-sub2);
+}
