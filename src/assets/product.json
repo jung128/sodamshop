@@ -1,0 +1,22 @@
+[
+  {
+    "idx": 1,
+    "title": "포레스트 그린 체어",
+    "img": "./images/product/SOPA.png"
+  },
+  {
+    "idx": 2,
+    "title": "모던 그레이 무드 소파",
+    "img": "./images/product/SOPA2.png"
+  },
+  {
+    "idx": 3,
+    "title": "베이지 린넨 커튼",
+    "img": "./images/product/CURTAIN.png"
+  },
+  {
+    "idx": 4,
+    "title": "소담 우드 선반",
+    "img": "./images/product/SHELF.png"
+  }
+]

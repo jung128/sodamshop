@@ -7,7 +7,7 @@
       "price": 450000,
       "material": "고무나무",
       "color": "노바화이트",
-      "main_image_url": "/images/easy/sizeAcceptancs.jpg"
+      "main_image_url": "/images/size/sizeAcceptancs.jpg"
     },
     {
       "product_id": "P000130",
@@ -16,7 +16,7 @@
       "price": 450000,
       "material": "고무나무,가죽",
       "color": "코지브라운",
-      "main_image_url": "/images/easy/sizeSopa1.jpg"
+      "main_image_url": "/images/size/sizeSopa1.jpg"
     },
     {
       "product_id": "P000131",
@@ -25,7 +25,7 @@
       "price": 450000,
       "material": "패브릭,고무나무",
       "color": "그레이",
-      "main_image_url": "/images/easy/sizeSopa2.jpg"
+      "main_image_url": "/images/size/sizeSopa2.jpg"
     },
     {
       "product_id": "P000132",
@@ -34,7 +34,7 @@
       "price": 450000,
       "material": "고무나무,철제",
       "color": "화이트",
-      "main_image_url": "/images/easy/sizeShelf.jpg"
+      "main_image_url": "/images/size/sizeShelf.jpg"
     },
     {
       "product_id": "P000133",
@@ -43,7 +43,7 @@
       "price": 180000,
       "material": "철제",
       "color": "모닝화이트",
-      "main_image_url": "/images/easy/sizePartition.jpg"
+      "main_image_url": "/images/size/sizePartition.jpg"
     },
     {
       "product_id": "P000134",
@@ -52,7 +52,7 @@
       "price": 890000,
       "material": "패브릭",
       "color": "화이트블랙",
-      "main_image_url": "/images/easy/sizeChair.jpg"
+      "main_image_url": "/images/size/sizeChair.jpg"
     }
   ]
 }
