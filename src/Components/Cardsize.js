@@ -1,9 +1,10 @@
+import React from 'react';
 import '../styles/cardsize.scss';
 
 const Cardsize = ({ products }) => {
   return (
     <section className="cardsize">
-      <h2 className="cardsize__title">Trendy &gt; size</h2>
+      <h2 className="cardsize__title">New Arrivals (신상품)</h2>
       <div className="cardsize__list">
         {products.map((product) => (
           <div key={product.product_id} className="cardsize__item">
@@ -18,7 +19,7 @@ const Cardsize = ({ products }) => {
               <p className="cardsize__category">{product.category} • {product.material}</p>
               <p className="cardsize__color">컬러: {product.color}</p>
               <p className="cardsize__price">{product.price.toLocaleString()}원</p>
-              <button className="cardsize__btn">+ Add to Cart</button>
+              <button className="cardeasy__button">+ Add to Cart</button>
             </div>
           </div>
         ))}
