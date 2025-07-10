@@ -15,7 +15,7 @@
       "category": "수납",
       "price": 130000,
       "material": "고무나무, 철제",
-      "color": "내추럴 우드블랙",
+      "color": "내추럴 우드",
       "main_image_url": "/images/easy/easyHanger.jpg"
     },
     {
@@ -24,12 +24,12 @@
       "category": "소파",
       "price": 350000,
       "material": "패브릭,고무나무",
-      "color": "그레이",
+      "color": "화이트",
       "main_image_url": "/images/easy/easySopa.jpg"
     },
     {
       "product_id": "P000126",
-      "product_name": "천연 원목 수납 벤치 & 신발 정리대",
+      "product_name": "천연 원목 수납 벤치",
       "category": "수납",
       "price": 80000,
       "material": "고무나무",

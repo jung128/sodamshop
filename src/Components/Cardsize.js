@@ -15,6 +15,7 @@ const Cardsize = ({ products }) => {
               />
             </div>
             <div className="cardsize__info">
+              <p className='new'>New <WiStars /></p>
               <h3>{product.product_name}</h3>
               <p className="cardsize__category">{product.category} • {product.material}</p>
               <p className="cardsize__color">컬러: {product.color}</p>

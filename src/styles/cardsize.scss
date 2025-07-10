@@ -9,13 +9,24 @@
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  margin-left: 1rem;
   @include font-En-title;
 
   @media (min-width: 768px) {
     font-size: 2rem;
   }
 }
-
+  p{
+    text-align: right;
+  }
+  h3{
+    text-align: right;
+  }
+  .new{
+    text-align: left;
+    color:rgb(9, 128, 226);
+    margin-bottom: 10px;
+  }
   &__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -29,9 +40,8 @@
   }
 
   &__item {
-    background: var(--color-sub2);
+    border: 1px solid #ddd;
     padding: 1rem;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,7 +56,6 @@
     width: 100%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    border-radius: 10px;
     background-color: #f5f5f5;
     margin-bottom: 0.75rem;
     img {
