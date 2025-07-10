@@ -17,8 +17,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ItemCategory from "./Components/ItemCategory";
 
 
-<<<<<<< HEAD
-=======
+
 const App = () => {
   const [isMenuOpen,setIsMenuOpen] = useState(false);
   return (
@@ -40,5 +39,5 @@ const App = () => {
     </BrowserRouter>
   );
 };
->>>>>>> 3bdffae3ac81566af03c859d24c998c5ccccb6d8
 
+export default App;
