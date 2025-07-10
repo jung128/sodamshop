@@ -1,63 +1,38 @@
-.banner{
-    .nav{
+    .banner-slider{
+        max-width: 1440px;
+        margin: 0 auto;
         width: 100%;
-        padding: 1rem;
-        height: 3rem;
-        @include flex-layout(row,space-between,center);
-        background-color: var(--color-primary);
-        color: var(--color-sub2);
-        @include desktop{
-            padding-left: 55rem;
+        .slick-dots{
+            bottom: 20px;
         }
-        button{
-            background-color: transparent;
-            border: none;
-            font-size: 1.5rem;
-            color: var(--color-sub2);
-            &:hover{
-                filter: brightness(80%);
-            }
+        .slick-prev{
+            left: 15px;
         }
-        .menu-bar{
-        @include tablet{
-            display: none;
+        .slick-next{
+            right: 15px;
         }
+        .slick-prev, .slick-next {
+         z-index: 1; /* 다른 요소 위에 보이도록 */
+        width: 40px;
+        height: 40px;
+        }       
+        .slick-prev:before, .slick-next:before {
+        font-size: 3rem; /* 화살표 아이콘 크기 */
+        color: #fff; /* 화살표 색상 */
         }
-        h1{
-            @include font-En-title;
-            font-size: 1.5rem;
-        }
-        .nav-icon{
-            font-size: 1.5rem;
-        }
-    }
-    .nav2{
-        display: none;
-        @include tablet{
-            display: block;
-            margin: 1rem auto;
-        }
-        @include desktop{
-            margin: 1rem 10rem;
-        }
-        ul{
-        @include flex-layout(row,space-around,center);
-        @include font-En-sub;
-        li{
-            cursor: pointer;
-        }
-        }
-    }
     img{
-        margin: 2rem 0;
         width: 100%;
         @include tablet{
+            width: 100%;
             height: 25rem;
             margin: 0;
         }
         @include desktop{
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
             height: 40rem;
             margin: 0;
         }
     }
-}
+    }

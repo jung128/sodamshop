@@ -4,7 +4,6 @@ import '../styles/cardeasy.scss';
 
 const Cardeasy = () => {
   const products = productsData.products;
- 
 
   return (
     <section className="cardeasy">

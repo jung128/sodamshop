@@ -1,0 +1,136 @@
+footer {
+  width: 100vw;
+  background-color: var(--color-primary);
+  @include flex-layout(column);
+  @include tablet {
+    @include flex-layout(row);
+    position: relative;
+  }
+  .img-w {
+    width: 60%;
+    height: auto;
+    margin: 2rem 0;
+    @include tablet {
+      display: none;
+    }
+    @include desktop {
+      display: none;
+    }
+  }
+  .img-h {
+    @include mobile {
+      display: none;
+    }
+    @include tablet {
+      position: absolute;
+      top: 2.7rem;
+      left: 1rem;
+      width: 250px;
+      height: 175px;
+      margin-left: 2rem;
+    }
+    @include desktop {
+      width: 330px;
+      height: 200px;
+    }
+  }
+}
+
+.info-wrap {
+  background-color: var(--color-primary);
+  width: 100%;
+  @include flex-layout(row, space-around, flex-start);
+  padding: 1rem;
+  @include tablet {
+    @include flex-layout(row, center, flex-start);
+    margin: 0 auto;
+    margin-left: 15rem;
+    padding: 2rem;
+    height: 400px;
+    gap: 3rem;
+  }
+  @include desktop {
+    @include flex-layout(row, center, flex-start);
+    width: 60%;
+    height: 300px;
+  }
+}
+.foter-btn {
+  width: 178px;
+  padding-bottom: 0.5rem;
+  display: block;
+  text-align: left;
+  background: none;
+  outline: none;
+  border: none;
+  color: var(--color-sub2);
+  border-bottom: 1px solid var(--color-sub2);
+  @include font-En-sub;
+}
+.foot-info,
+.foot-note {
+  ul {
+    li {
+      line-height: 1.8rem;
+      color: var(--color-sub2);
+      @include font-ko-body;
+    }
+    button {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+.foot-email {
+  width: 100%;
+  margin-bottom: 1rem;
+  @include flex-layout(column);
+  background-color: var(--color-primary);
+  @include tablet {
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  @include desktop {
+    background: none;
+    position: absolute;
+    top: 10%;
+    left: 82%;
+    width: 40%;
+  }
+  p {
+    @include font-ko-small;
+    padding: 0.5rem 0;
+    color: var(--color-sub2);
+  }
+  .email-input {
+    flex: 2;
+    @include flex-layout();
+    @include desktop {
+      @include flex-layout(row, center, flex-start);
+      width: 80%;
+    }
+    input {
+      width: 275px;
+      margin: 0.6rem 0.5rem;
+      text-align: center;
+      padding: 0.6rem 1rem;
+      outline: none;
+      @include tablet {
+        width: 350px;
+      }
+    }
+    button {
+      width: 100px;
+      padding: 0.6rem 0;
+      background-color: var(--color-sub1);
+      color: var(--color-black);
+      text-align: center;
+      @include font-ko-small;
+      @include desktop {
+        margin-top: 10px;
+      }
+    }
+  }
+}

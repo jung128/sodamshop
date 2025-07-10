@@ -11,9 +11,7 @@ const Productt = () => {
 
     return (
         <div className='product'>
-            <div className='product-bg'>
             <img src={`${process.env.PUBLIC_URL}/images/product-2.jpg `}/>
-            </div>
             <div className='product-icon-1'>
             <button onClick={()=>{setIsOpen1(!isOpen1)}}><AiTwotonePlusCircle /></button>
             {
