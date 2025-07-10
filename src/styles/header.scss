@@ -1,0 +1,56 @@
+.header{
+    .nav{
+        width: 100%;
+        padding: 1rem;
+        height: 4rem;
+        @include flex-layout(row,space-between,center);
+        background-color: var(--color-primary);
+        color: var(--color-sub2);
+        @include desktop{
+            padding-left: 61rem;
+        }
+        .header-bar,.header-user,.header-cart{
+            background-color: transparent;
+            border: none;
+            font-size: 2rem;
+            color: var(--color-sub2);
+            &:nth-of-type(2){
+                margin-left: 0.3rem;
+            }
+            &:hover{
+                filter: brightness(80%);
+            }
+        }
+        .menu-bar{
+        @include tablet{
+            display: none;
+        }
+        }
+        h1{
+            @include font-En-title;
+            font-size: 1.5rem;
+        }
+        .nav-icon{
+            font-size: 1.5rem;
+        }
+    }
+    .nav2{
+        max-width: 1440px;
+        margin: 0 auto;
+        display: none;
+        @include tablet{
+            display: block;
+            margin: 1rem auto;
+        }
+        ul{
+        @include flex-layout(row,space-around,center);
+        @include font-En-sub;
+        li{
+            cursor: pointer;
+            &:hover{
+                color: var(--color-primary);
+            }
+        }
+        }
+    }
+}

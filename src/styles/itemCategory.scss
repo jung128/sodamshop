@@ -1,0 +1,45 @@
+#category{
+  width: 400px;
+  margin: 3rem auto;
+  text-align: center;
+  *{ margin: 5px 0; }
+  @include tablet{
+    width: 600px;
+  }
+  @include desktop{
+    width: 800px;
+    margin: 4rem auto;
+  }
+  ul{
+    @include flex-layout();
+    flex-wrap: wrap;
+    img{ width: 17px; height: 17px; }
+    @include tablet{
+      img{ width: 20px; height: 20px; }
+    }
+    @include desktop{
+      img{ width: 40px; height: 40px; }
+    }
+    gap: 5px;
+    li{
+      @include flex-layout(row,center,center);
+      width: 85px;
+      height: 35px;
+      padding: 5px;
+      border: 1px solid var(--color-gray);
+      border-radius: 25px;
+      gap: 4px;
+      @include tablet{
+        @include flex-layout(row,center,center);
+        width: 111px;
+        height: 40px;
+      }
+      @include desktop{
+        @include flex-layout(row,center,center);
+        width: 150px;
+        height: 60px;
+        border-radius: 35px;
+      }
+    }
+  }
+}

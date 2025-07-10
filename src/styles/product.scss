@@ -1,0 +1,79 @@
+.product{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    img{
+        display:block;
+        width: 100%;
+        height: 25rem;
+        @include tablet{
+            width: 100%;
+            height: 25rem;
+            @include desktop{
+                width: 100%;
+                height: 40rem;
+                margin: 1rem auto;
+            }
+        }
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        font-size: 2.5rem;
+        &:hover{
+            filter: brightness(80%);
+            }
+    }
+    .product-icon-1{
+        position: absolute;
+        top: 17rem;
+        left: 4rem;
+        z-index: 30;
+        @include tablet{
+            left: 6.5rem;
+        }
+        @include desktop{
+            top: 27rem;
+            left: 13rem;
+        }
+    }
+    .product-icon-2{
+        position: absolute;
+        top: 15rem;
+        left: 17rem;
+        z-index: 25;
+        @include tablet{
+            top: 14rem;
+            left: 28rem;
+        }
+        @include desktop{
+            top: 23rem;
+            left: 50rem;
+        }
+    }
+    .product-icon-3{
+        position: absolute;
+        top: 11rem;
+        left: 12rem;
+        z-index: 20;
+        @include tablet{
+            top:10rem;
+            left: 18.5rem;
+        }
+        @include desktop{
+            top: 17rem;
+            left: 36rem;
+        }
+    }
+    .product-icon-4{
+        position: absolute;
+        top: 11rem;
+        right: 8rem;
+        z-index: 15;
+        @include desktop{
+            top: 15rem;
+            right: 20rem;
+        }
+    }
+}

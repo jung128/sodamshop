@@ -1,0 +1,45 @@
+.popup{
+    position: relative;
+    cursor: pointer;
+    .popup-card{
+        position: absolute;
+        top: -14rem;
+        left: 0.8rem;
+        width: 9.5rem;
+        height: 12rem;
+        background-color:rgba(255,255,255,0.6);
+        @include flex-layout;
+        @include desktop{
+            top: -18rem;
+            left: 1.3rem;
+        }
+        img{
+            width: 80px;
+            height: 95px;
+            @include desktop{
+                width: 130px;
+                height: 130px;
+            }
+        }
+        h2{
+            font-size: 0.5rem;
+            @include font-ko-btn;
+            font-weight: bolder;
+        }
+        @include desktop{
+            width: 15rem;
+            height: 16rem;
+        }
+        .popup-card2{
+            width: 8.5rem;
+            height: 11rem;
+            background-color:rgba(255,255,255,0.8);
+        @include flex-layout(column,center,center);
+        gap: 1rem;
+        @include desktop{
+            width: 14rem;
+            height: 15rem;
+    }
+    }
+}
+}
