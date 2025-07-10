@@ -1,5 +1,5 @@
 footer {
-  width: 100vw;
+  width: 100%;
   background-color: var(--color-primary);
   @include flex-layout(column);
   @include tablet {
