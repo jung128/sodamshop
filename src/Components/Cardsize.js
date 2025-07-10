@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/cardsize.scss';
-
+import { WiStars } from "react-icons/wi";
 const Cardsize = ({ products }) => {
   return (
     <section className="cardsize">
-      <h2 className="cardsize__title">New Arrivals (신상품)</h2>
+      <h2 className="cardsize__title">New Arrivals<WiStars /></h2>
       <div className="cardsize__list">
         {products.map((product) => (
           <div key={product.product_id} className="cardsize__item">

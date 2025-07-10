@@ -14,7 +14,7 @@ const Productt = () => {
     return (
         <div className='product'>
             {/* <h2>Seasonal Picks<GiSeaStar /></h2> */}
-            <h2>Seasonal Picks <FaDisease /></h2>
+            <h2><FaDisease /> Seasonal Picks </h2>
             <img src={`${process.env.PUBLIC_URL}/images/product-2.jpg `}/>
             <div className='product-icon-1'>
             <button onClick={()=>{setIsOpen1(!isOpen1)}}><AiTwotonePlusCircle /></button>
