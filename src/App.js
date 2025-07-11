@@ -15,6 +15,8 @@ import { useState } from "react";
 import Gnb from "./Components/Gnb";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import ItemCategory from "./Components/ItemCategory";
+import ItemPageSe from "./Components/ItemPageSe";
+
 
 const AppContent = () => {
   const location = useLocation();
@@ -84,11 +86,13 @@ const AppContent = () => {
             />
           } 
         />
+        <Route
+          path="/itempageSe"
+          element={<ItemPageSe/>}/>
       </Routes>
     </div>
   );
 };
-
 
 const App = () => {
   return (

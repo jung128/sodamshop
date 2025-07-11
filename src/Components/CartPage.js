@@ -9,10 +9,11 @@ const CartPage = ({cart, onDelete, onUpdateCount}) => {
   }, 0);
 
   return (
-    <div className="cart-page">
+    <>
       <div className="cart-header">
       <button className="home-icon" onClick={()=>{navigate('/')}}><IoIosHome /></button>
       </div>
+    <div className="cart-page">
       <h2>My CART</h2>
       {cart.length === 0 ? (
         <div className="empty-cart">
@@ -75,6 +76,7 @@ const CartPage = ({cart, onDelete, onUpdateCount}) => {
         </>
       )}
     </div>
+    </>
   );
 };
 

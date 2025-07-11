@@ -11,7 +11,7 @@ const Header = ({isOpen,setIsOpen}) => {
         <div className="header">
             <div className="nav">
             <button className="header-bar" onClick={()=>{setIsOpen(!isOpen)}}><FaBars /></button>
-            <img src={`${process.env.PUBLIC_URL}/images/head-logo.png`} alt="head logo image"/>
+            <img onClick={()=>{navigate('/')}} src={`${process.env.PUBLIC_URL}/images/head-logo.png`} alt="head logo image"/>
             {/* <h1>Sodam Shop</h1> */}
             <div className="nav-icon">
             <button className="header-user"><PiUserCircleFill /></button>

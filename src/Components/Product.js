@@ -4,12 +4,14 @@ import Popup from "./Popup";
 import productData from "../assets/product.json";
 import { GiSeaStar } from "react-icons/gi";
 import { FaDisease } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const Productt = () => {
     const [isOpen1,setIsOpen1] = useState(false);
     const [isOpen2,setIsOpen2] = useState(false);
     const [isOpen3,setIsOpen3] = useState(false);
     const [isOpen4,setIsOpen4] = useState(false);
+    const navigate = useNavigate();
 
     return (
         <div className='product'>
@@ -45,8 +47,8 @@ const Productt = () => {
             {
                 isOpen3 &&
                 <Popup>
-                    <img src={`${process.env.PUBLIC_URL}/${productData[2].img}`}
-                                alt={productData[2].title}/>
+                    <button onClick={()=>{navigate('/itempageSe')}}><img src={`${process.env.PUBLIC_URL}/${productData[2].img}`}
+                                alt={productData[2].title}/></button>
                     <h2 className="product-h2">{productData[2].title}</h2>
                     <p className="product-p">{productData[2].description}</p>
                 </Popup>
