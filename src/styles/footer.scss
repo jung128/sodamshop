@@ -1,5 +1,5 @@
 footer {
-  width: 100vw;
+  width: 100%;
   background-color: var(--color-primary);
   @include flex-layout(column);
   @include tablet {
@@ -70,13 +70,14 @@ footer {
 .foot-info,
 .foot-note {
   ul {
+    margin-top: 1rem;
     li {
       line-height: 1.8rem;
       color: var(--color-sub2);
       @include font-ko-body;
     }
-    button {
-      margin-bottom: 0.5rem;
+    .foter-btn {
+      margin-bottom: 1rem;
     }
   }
 }
@@ -121,7 +122,7 @@ footer {
         width: 350px;
       }
     }
-    button {
+    .foter-btn {
       width: 100px;
       padding: 0.6rem 0;
       background-color: var(--color-sub1);

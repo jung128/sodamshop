@@ -1,9 +1,12 @@
+import React from 'react';
 import '../styles/cardsize.scss';
+import { WiStars } from "react-icons/wi";
 
 const Cardsize = ({ products, onAddToCart }) => {
+
   return (
     <section className="cardsize">
-      <h2 className="cardsize__title">Trendy &gt; size</h2>
+      <h2 className="cardsize__title">New Arrivals<WiStars /></h2>
       <div className="cardsize__list">
         {products.map((product) => (
           <div key={product.product_id} className="cardsize__item">
@@ -14,6 +17,7 @@ const Cardsize = ({ products, onAddToCart }) => {
               />
             </div>
             <div className="cardsize__info">
+              <p className='new'>New <WiStars /></p>
               <h3>{product.product_name}</h3>
               <p className="cardsize__category">{product.category} • {product.material}</p>
               <p className="cardsize__color">컬러: {product.color}</p>
@@ -24,6 +28,7 @@ const Cardsize = ({ products, onAddToCart }) => {
               >
                 + Add to Cart
               </button>
+
             </div>
           </div>
         ))}
