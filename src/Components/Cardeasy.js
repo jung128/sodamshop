@@ -6,7 +6,7 @@ import { MdEco } from "react-icons/md";
 
 const Cardeasy = () => {
   const products = productsData.products;
-
+  
   return (
     <section className="cardeasy">
       <h2 className="cardeasy__title">Eco & Natural<MdEco /></h2>

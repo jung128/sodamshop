@@ -8,6 +8,7 @@
     text-align: left;
     border-bottom: 1px solid #999;
     padding-bottom: 20px;
+    padding-top: 20px;
     @include tablet {
       font-size: 2rem;
     }
@@ -74,14 +75,14 @@
 
         .item-up {
           display: flex;
-          gap: 2rem;
+          gap: 5rem;
           margin-bottom: 3rem;
           @include tablet {
             margin-bottom: 4rem;
-            gap: 9.4rem;
+            gap: 13rem;
           }
           @include desktop {
-            gap: 15rem;
+            gap: 21rem;
             margin-bottom: 6rem;
           }
         }
@@ -165,6 +166,8 @@
     width: 100%;
     padding: 0.5rem 9rem;
     margin-top: 20px;
+    background-color: var(--color-primary);
+    border: none;
     color: var(--color-white);
     border-radius: 0;
     @include tablet {
@@ -200,7 +203,12 @@
 .empty-cart {
   margin-top: 100px;
   text-align: center;
-
+    button{
+      padding: 10px 20px;
+      color: var(--color-white);
+      background-color: var(--color-primary);
+      border: none;
+    }
   p {
     margin: 1rem 0;
   }
