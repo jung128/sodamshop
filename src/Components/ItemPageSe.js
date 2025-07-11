@@ -1,7 +1,7 @@
 
 const ItemPage = () => {
     return (
-        <div>
+        <div className="itempage">
         </div>
     );
 };

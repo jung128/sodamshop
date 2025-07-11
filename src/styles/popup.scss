@@ -11,10 +11,10 @@
         @include flex-layout;
         word-break: keep-all;
         @include tablet{
-            top: -15.5rem;
+            top: -14.5rem;
             left: 1.2rem;
             width: 10.5rem;
-            height: 13.5rem;
+            height: 12.5rem;
         }
         @include desktop{
             top: -21rem;
@@ -26,8 +26,8 @@
             width: 80px;
             height: 95px;
             @include tablet{
-                width: 80px;
-                height: 80px;
+                width: 75px;
+                height: 70px;
             }
             @include desktop{
                 width: 130px;
@@ -44,11 +44,10 @@
             height: 11rem;
             background-color:rgba(255,255,255,0.8);
         @include flex-layout(column,center,center);
-        gap: 1rem;
         padding: 0.4rem;
         @include tablet{
             width: 9.5rem;
-            height: 12.5rem;
+            height: 11.5rem;
             padding: 0.4rem;
         }
         @include desktop{

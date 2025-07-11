@@ -84,8 +84,8 @@
   }
 }
 
-/* cardeasy__button 스타일을 cardsize.scss에도 추가! */
-.cardeasy__button {
+/* cardeasy__butn 스타일을 cardsize.scss에도 추가! */
+.cardsize__btn {
   display: block;
   background-color: var(--color-sub1);
   color: #fff;
@@ -99,7 +99,7 @@
   margin-top: auto;
   width: 100%;
   // min-width: 140px;
-  min-height: 44px;
+  min-height: 40px;
   box-sizing: border-box;
 
   &:hover {

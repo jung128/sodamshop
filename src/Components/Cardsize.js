@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/cardsize.scss';
 import { WiStars } from "react-icons/wi";
 
@@ -28,7 +27,6 @@ const Cardsize = ({ products, onAddToCart }) => {
               >
                 + Add to Cart
               </button>
-
             </div>
           </div>
         ))}

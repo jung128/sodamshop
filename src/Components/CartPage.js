@@ -1,5 +1,6 @@
 import { RiDeleteBinLine } from "react-icons/ri";
 import { useNavigate } from "react-router-dom";
+import { IoIosHome } from "react-icons/io";
 
 const CartPage = ({cart, onDelete, onUpdateCount}) => {
   const navigate = useNavigate();
@@ -9,6 +10,9 @@ const CartPage = ({cart, onDelete, onUpdateCount}) => {
 
   return (
     <div className="cart-page">
+      <div className="cart-header">
+      <button className="home-icon" onClick={()=>{navigate('/')}}><IoIosHome /></button>
+      </div>
       <h2>My CART</h2>
       {cart.length === 0 ? (
         <div className="empty-cart">
