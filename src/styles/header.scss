@@ -7,7 +7,7 @@
         background-color: var(--color-primary);
         color: var(--color-sub2);
         @include desktop{
-            padding-left: 61rem;
+            padding-left: 58rem;
         }
         .header-bar,.header-user,.header-cart{
             background-color: transparent;
@@ -21,14 +21,20 @@
                 filter: brightness(80%);
             }
         }
-        .menu-bar{
+        .header-bar{
         @include tablet{
             display: none;
         }
+        @include desktop{
+            display: none;
         }
-        h1{
-            @include font-En-title;
-            font-size: 1.5rem;
+        }
+        // h1{
+        //     @include font-En-title;
+        //     font-size: 1.5rem;
+        // }
+        img{
+            width:12rem;
         }
         .nav-icon{
             font-size: 1.5rem;
