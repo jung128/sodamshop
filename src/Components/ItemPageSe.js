@@ -11,30 +11,30 @@ const ItemPage = () => {
         <>
         <ItemsinfoSe/>
         <div className="itempage">
-            <img className="itempage-img01"src={`${process.env.PUBLIC_URL}/images/item-SE/img01.png`} alt="image"/>
-            <img className="itempage-img02"src={`${process.env.PUBLIC_URL}/images/item-SE/img-01.png`} alt="image02"/>
-            <img className="itempage-img03"src={`${process.env.PUBLIC_URL}/images/item-SE/img-02.webp`} alt="image02"/>
-            <img className="itempage-img21"src={`${process.env.PUBLIC_URL}/images/item-SE/img-12.webp`} alt="image02"/>
+            <img className="itempage-img01"src={`${process.env.PUBLIC_URL}/images/item-SE/img01.png`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img02"src={`${process.env.PUBLIC_URL}/images/item-SE/img-01.png`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img03"src={`${process.env.PUBLIC_URL}/images/item-SE/img-02.webp`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img21"src={`${process.env.PUBLIC_URL}/images/item-SE/img-12.webp`} alt="상세 페이지 이미지"/>
         <div className="item-img01">
-            <img className="itempage-img04"src={`${process.env.PUBLIC_URL}/images/item-SE/img-03.webp`} alt="image02"/>
-            <img className="itempage-img05"src={`${process.env.PUBLIC_URL}/images/item-SE/img-04.webp`} alt="image02"/>
+            <img className="itempage-img04"src={`${process.env.PUBLIC_URL}/images/item-SE/img-03.webp`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img05"src={`${process.env.PUBLIC_URL}/images/item-SE/img-04.webp`} alt="상세 페이지 이미지"/>
             </div>
-            <img className="itempage-img22"src={`${process.env.PUBLIC_URL}/images/item-SE/img-13.webp`} alt="image02"/>
-            <img className="itempage-img06"src={`${process.env.PUBLIC_URL}/images/item-SE/img-05.webp`} alt="image02"/>
-            <img className="itempage-img07"src={`${process.env.PUBLIC_URL}/images/item-SE/img-06.webp`} alt="image02"/>
-            <img className="itempage-img08"src={`${process.env.PUBLIC_URL}/images/item-SE/img-07.webp`} alt="image02"/>
+            <img className="itempage-img22"src={`${process.env.PUBLIC_URL}/images/item-SE/img-13.webp`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img06"src={`${process.env.PUBLIC_URL}/images/item-SE/img-05.webp`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img07"src={`${process.env.PUBLIC_URL}/images/item-SE/img-06.webp`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img08"src={`${process.env.PUBLIC_URL}/images/item-SE/img-07.webp`} alt="상세 페이지 이미지"/>
             <p className="ha_home">@seul_ha_home 인스타그램 후기</p>
-            <img className="itempage-img09"src={`${process.env.PUBLIC_URL}/images/item-SE/img02.png`} alt="image02"/>
-            <img className="itempage-img10"src={`${process.env.PUBLIC_URL}/images/item-SE/img-08.webp`} alt="image02"/>
-            <img className="itempage-img11"src={`${process.env.PUBLIC_URL}/images/item-SE/img-09.webp`} alt="image02"/>
+            <img className="itempage-img09"src={`${process.env.PUBLIC_URL}/images/item-SE/img02.png`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img10"src={`${process.env.PUBLIC_URL}/images/item-SE/img-08.webp`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img11"src={`${process.env.PUBLIC_URL}/images/item-SE/img-09.webp`} alt="상세 페이지 이미지"/>
             <div className="item-img02">
-            <img className="itempage-img12"src={`${process.env.PUBLIC_URL}/images/item-SE/img-10.webp`} alt="image02"/>
-            <img className="itempage-img13"src={`${process.env.PUBLIC_URL}/images/item-SE/img-11.webp`} alt="image02"/>
+            <img className="itempage-img12"src={`${process.env.PUBLIC_URL}/images/item-SE/img-10.webp`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img13"src={`${process.env.PUBLIC_URL}/images/item-SE/img-11.webp`} alt="상세 페이지 이미지"/>
             </div>
-            <img className="itempage-img14"src={`${process.env.PUBLIC_URL}/images/item-SE/img03.png`} alt="image02"/>               
-            <img className="itempage-img15"src={`${process.env.PUBLIC_URL}/images/item-SE/img06.png`} alt="image02"/>
-            <img className="itempage-img20"src={`${process.env.PUBLIC_URL}/images/item-SE/img04.png`} alt="image02"/>         
-            <img className="itempage-img16"src={`${process.env.PUBLIC_URL}/images/item-SE/img07.png`} alt="image02"/>        
+            <img className="itempage-img14"src={`${process.env.PUBLIC_URL}/images/item-SE/img03.png`} alt="상세 페이지 이미지"/>               
+            <img className="itempage-img15"src={`${process.env.PUBLIC_URL}/images/item-SE/img06.png`} alt="상세 페이지 이미지"/>
+            <img className="itempage-img20"src={`${process.env.PUBLIC_URL}/images/item-SE/img04.png`} alt="상세 페이지 이미지"/>         
+            <img className="itempage-img16"src={`${process.env.PUBLIC_URL}/images/item-SE/img07.png`} alt="상세 페이지 이미지"/>        
             <img className="itempage-img17"src={`${process.env.PUBLIC_URL}/images/item-SE/img05.png`} alt="교환 및 반품안내 이미지"/>        
             <img className="itempage-img19"src={`${process.env.PUBLIC_URL}/images/item-SE/img09.png`} alt="교환 및 반품안내 이미지"/>        
             <div className="review">
