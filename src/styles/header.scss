@@ -6,9 +6,6 @@
         @include flex-layout(row,space-between,center);
         background-color: var(--color-primary);
         color: var(--color-sub2);
-        @include desktop{
-            padding-left: 52rem;
-        }
         .header-bar,.header-user,.header-cart{
             background-color: transparent;
             border: none;

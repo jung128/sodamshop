@@ -24,8 +24,8 @@ footer {
     @include tablet {
       position: absolute;
       top: 2.7rem;
-      left: 1rem;
-      width: 250px;
+      left: 0rem;
+      width: 230px;
       height: 175px;
       margin-left: 2rem;
     }
@@ -72,6 +72,7 @@ footer {
   ul {
     margin-top: 1rem;
     li {
+      cursor: pointer;
       line-height: 1.8rem;
       color: var(--color-sub2);
       @include font-ko-body;

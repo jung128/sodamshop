@@ -16,15 +16,15 @@ const Productt = () => {
     return (
         <div className='product'>
             {/* <h2>Seasonal Picks<GiSeaStar /></h2> */}
-            <h2 className="product-title"><FaDisease /> Seasonal Picks </h2>
+            <h2 className="product-title">Seasonal Picks<FaDisease /></h2>
             <img src={`${process.env.PUBLIC_URL}/images/product-2.jpg `}/>
             <div className='product-icon-1'>
             <button className="product-btn" onClick={()=>{setIsOpen1(!isOpen1)}}><AiTwotonePlusCircle /></button>
             {
                 isOpen1 &&
                 <Popup>
-                    <img src={`${process.env.PUBLIC_URL}/${productData[0].img}`}
-                                alt={productData[0].title}/>
+                    <button onClick={()=>{navigate('/itemsPageEj')}}><img src={`${process.env.PUBLIC_URL}/${productData[0].img}`}
+                                alt={productData[0].title}/></button>
                     <h2 className="product-h2">{productData[0].title}</h2>
                     <p className="product-p">{productData[0].description}</p>
                 </Popup>
@@ -35,8 +35,8 @@ const Productt = () => {
             {
                 isOpen2 &&
                 <Popup>
-                    <img src={`${process.env.PUBLIC_URL}/${productData[1].img}`}
-                                alt={productData[1].title}/>
+                    <button onClick={()=>{navigate('/itempageMs')}}><img src={`${process.env.PUBLIC_URL}/${productData[1].img}`}
+                                alt={productData[1].title}/></button>
                     <h2 className="product-h2">{productData[1].title}</h2>
                     <p className="product-p">{productData[1].description}</p>
                 </Popup>
@@ -59,8 +59,8 @@ const Productt = () => {
             {
                 isOpen4 &&
                 <Popup>
-                    <img src={`${process.env.PUBLIC_URL}/${productData[3].img}`}
-                                alt={productData[3].title}/>
+                    <button onClick={()=>{navigate('./itemsinfoJung')}}><img src={`${process.env.PUBLIC_URL}/${productData[3].img}`}
+                                alt={productData[3].title}/></button>
                     <h2 className="product-h2">{productData[3].title}</h2>
                     <p className="product-p">{productData[3].description}</p>
                 </Popup>

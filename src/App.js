@@ -7,15 +7,18 @@ import Instagram from "./Components/Instagram";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import CartPage from "./Components/CartPage";
+import ItemCategory from "./Components/ItemCategory";
+import ItemPageSe from "./Components/ItemPageSe";
+import ItemPageMs from "./Components/ItemPageMs";
+import ItemsinfoJung from "./Components/ItemsinfoJung";
+import ItemPageEj from "./Components/ItemPageEj";
 
-import easyData from './assets/Easy.json';
 import sizeData from './assets/Size.json';
 import instaData from './assets/insta.json';
 import { useState } from "react";
 import Gnb from "./Components/Gnb";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import ItemCategory from "./Components/ItemCategory";
-import ItemPageSe from "./Components/ItemPageSe";
+
 
 
 const AppContent = () => {
@@ -72,7 +75,6 @@ const AppContent = () => {
               <Product/>
               <Cardeasy onAddToCart={handleAddToCart} />
               <Instagram products={instaData.products} />
-              <Footer/>
             </>
           } 
         />
@@ -89,8 +91,19 @@ const AppContent = () => {
         <Route
           path="/itempageSe"
           element={<ItemPageSe/>}/>
+        <Route
+      path="/itempageMs"
+      element={<ItemPageMs/>}/>
+        <Route
+      path="/itemsinfoJung"
+      element={<ItemsinfoJung/>}/>
+        <Route
+      path="/itemsPageEj"
+      element={<ItemPageEj/>}/>
       </Routes>
+                    <Footer/>
     </div>
+    
   );
 };
 
