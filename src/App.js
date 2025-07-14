@@ -17,7 +17,7 @@ import sizeData from './assets/Size.json';
 import instaData from './assets/insta.json';
 import { useState } from "react";
 import Gnb from "./Components/Gnb";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes, useLocation } from "react-router-dom";
 
 
 
@@ -109,9 +109,9 @@ const AppContent = () => {
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
