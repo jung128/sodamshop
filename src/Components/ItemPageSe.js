@@ -1,5 +1,4 @@
 import { LiaStarSolid } from "react-icons/lia";
-import { useNavigate } from "react-router-dom";
 import {useEffect} from "react";
 import ItemsinfoSe from "./ItemsinfoSe";
 
